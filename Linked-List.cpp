@@ -84,7 +84,7 @@ class list
 			previous->next=NULL;
 			delete current;
 		}
-void delete_position(int pos)
+		void delete_position(int pos)
 		{
 			node *current=new node;
 			node *previous=new node;
@@ -96,9 +96,9 @@ void delete_position(int pos)
 			}
 			previous->next=current->next;
 		}
-};
-int main()
-{
+			};
+	int main()
+	{
 	list obj;
 	obj.createnode(25);
 	obj.createnode(50);

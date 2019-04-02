@@ -84,3 +84,8 @@ class list
 			previous->next=NULL;
 			delete current;
 		}
+
+	
+	
+	
+	
